@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register Student</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+<nav class="bg-blue-600 p-4 text-white flex gap-6">
+  <a href="index.html">Home</a>
+  <a href="register.html">Register</a>
+  <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+
+ 
+</nav>
+
+<div class="max-w-xl mx-auto mt-12 bg-white p-6 rounded shadow">
+  <h2 class="text-2xl font-bold mb-4">Register Student</h2>
+
+  <form id="form">
+
+<input
+ type="text"
+ name="fullname"
+ required
+ pattern="[A-Za-z ]+"
+ placeholder="Enter your name"
+ class="w-full p-2 mb-3 border">
+
+<input
+ type="number"
+ name="age"
+ required
+ placeholder="Enter your Age"
+ class="w-full p-2 mb-3 border">
+
+<input
+ type="email"
+ name="email"
+ required
+ placeholder="Enter your Email"
+ class="w-full p-2 mb-3 border">
+
+<select
+ name="course"
+ required
+ class="w-full p-2 mb-3 border">
+
+<option value="">Select Course</option>
+<option>Computer Science</option>
+<option>Mathematics</option>
+<option>Physics</option>
+</select>
+
+<button class="bg-blue-600 text-white px-4 py-2 rounded w-full">
+Submit
+</button>
+
+</form>
+
+    </button>
+  </form>
+</div>
+</body>
+</html>
